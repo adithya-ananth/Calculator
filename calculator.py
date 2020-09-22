@@ -85,7 +85,7 @@ Division = Button(text = "÷", command = lambda: place("/")).grid(row = 3, colum
 B4 = Button(text = "4", command = lambda: place("4")).grid(row = 4, column = 1)
 B5 = Button(text = "5", command = lambda: place("5")).grid(row = 4, column = 2)
 B6 = Button(text = "6", command = lambda: place("6")).grid(row = 4, column = 3)
-Multiply = Button(text = "x", command = lambda: place("x")).grid(row = 4, column = 4)
+Multiply = Button(text = "x", command = lambda: place("*")).grid(row = 4, column = 4)
 
 B1 = Button(text = "1", command = lambda: place("1")).grid(row = 5, column = 1)
 B2 = Button(text = "2", command = lambda: place("2")).grid(row = 5, column = 2)
