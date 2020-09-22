@@ -4,7 +4,7 @@ import math
 
 def place(text):
     curr_Text = entryText.get()
-    if curr_Text == "Error":
+    if curr_Text == "Error" or curr_Text == "Cant handle this big.":
         entryText.set(text)
     else:
         entryText.set(curr_Text + text)
@@ -48,7 +48,7 @@ def fact():
             for i in range(2, num + 1):
                 ans *= i
                 if ans > 10**9:
-                    ans = "Cant handle this big. (That's what she said)"
+                    ans = "Cant handle this big."
                     break
             entryText.set(ans)
         except:
